@@ -1,0 +1,76 @@
+// HOME
+.buttons-home{
+    @media (max-width:430px){
+        display: flex;
+        flex-direction: column;
+        .button-home{
+            width: 50%;
+            margin: 10px auto;
+            padding: 10px 20px;
+        }
+    }
+}
+
+.button-home{                
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 30px;
+    margin-right: 20px;
+    padding: 10px 40px;
+    color: $color-secondary;
+    transition: 0.5s;
+    a, a:hover{
+        text-decoration: none;
+        color: $color-secondary;
+    }   
+}
+
+.started-button{
+    background-color: $color-tertiary;
+    border: 2px solid $color-tertiary;
+    cursor: pointer;
+    &:hover{
+        background-color: transparent;
+        border: 2px solid $color-secondary;
+    }
+}
+
+.services-button{
+    background-color: transparent;
+    border: 2px solid $color-secondary;
+    cursor: pointer;
+    &:hover{
+    border: none;
+    background-color:  $color-tertiary;
+    border: 2px solid $color-tertiary;
+    }
+}
+
+/*----------------CONTACT----------------*/
+.send-contact{
+    border-radius: 20px;
+    background-color: $color-tertiary;
+    border: none;
+    height: 35px;
+    width: 165px;
+    color: $color-secondary;
+    font-size: 18px;
+    margin-top: 20px;
+    &:hover{
+        background-color: #0067d5;
+    }
+}
+
+/*----------------FOOTER----------------*/
+.button-fixed{
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    background-color: $color-tertiary;
+    color: #fff;
+}
+

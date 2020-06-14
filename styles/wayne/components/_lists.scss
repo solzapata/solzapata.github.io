@@ -1,0 +1,45 @@
+// PORTFOLIO
+.item-list{
+    background-color: #ecf5ff;
+    width: 70px;
+    height: 30px;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 27px;
+    color: $color-tertiary;
+    transition: .3s;
+    cursor: pointer;
+    &:hover{
+        background-color: $color-tertiary;
+        color: $color-secondary;
+    }
+    li{
+        list-style: none;
+    }
+}
+#first-item{
+    background-color: $color-tertiary;
+    color: $color-secondary;
+}
+
+
+// FOOTER
+.container-footer-first{
+    .list-footer{
+    list-style: none;
+    padding-left: 0;
+        .item-list-footer{
+            .important-list-footer{
+                font-weight: bold;
+            }
+        }
+        .link-list-footer{
+            text-decoration: none;
+            color: $color-secondary;
+            transition: .3s;
+            &:hover{
+                color: $color-tertiary;
+            }
+        }
+    }
+}

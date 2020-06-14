@@ -1,0 +1,19 @@
+#extra{
+    padding: $padding-section;
+    background-color: $color-fourth;
+    color: $color-secondary;
+    box-shadow: $box-section;
+}
+
+#color-extra{
+    color: $color-secondary;
+}
+
+.container-extra{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    @media (max-width:993px){
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,166 @@
+// HEADER
+.logo{
+    margin: 25px;
+    &-ada{
+        height: 27px;
+    }
+}
+
+// ABOUT
+.image-about{
+    width: 50%;
+    @media (max-width:993px){
+        width: 100%;
+        order: 1;
+        margin: 20px 0px;
+    }
+}
+
+// PORTFOLIO
+.image-portfolio{
+    position: relative;
+    width: 30%;
+    height: 250px;
+    margin: 10px auto 40px;
+    overflow: hidden;
+    @media (max-width:993px){
+        width: 48%;
+    }
+    @media (max-width:770px){
+        width: 75%;
+    }
+}
+
+.info-image-portfolio{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: $color-secondary;
+    display: none;
+    z-index: 1;
+    h4{
+        font-size: 22px;
+        font-weight: 700;
+        a{
+            color: $color-secondary;
+            text-decoration: none;
+            transition: .5s;
+            &:hover{
+                color: $color-tertiary;
+            }
+        }
+    }
+}
+
+.img-cards-portfolio{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 6px;
+}
+
+.portfolio-blue{
+    width: 100%;
+    height: 100%;
+    background-color: $color-fourth;
+    opacity: 0;
+    position: absolute;
+    border-radius: 6px;
+    top: 0px;
+    transition: .5s;
+}
+
+.image-portfolio:hover .info-image-portfolio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-portfolio:hover .portfolio-blue{
+    opacity: 50%;
+}
+
+// TESTIMONIALS
+.image-testimonials{
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+    @media (max-width:770px){
+        margin: auto;
+    }
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+// TEAM
+.image-container-team{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    @media (max-width:993px){
+        margin: 20px 0;
+    }
+    @media (max-width:770px){
+        margin: 20px auto;
+    }
+    .item-team{
+        width: 100%;
+        height: 100%;
+    }
+    .color-blue{
+        width: 100%;
+        height: 100%;
+        background-color: $color-fourth;
+        opacity: 50%;
+        position: absolute;
+        bottom: -250px;
+        left: 0px;
+        transition: .5s;
+    }
+    .info-team{
+        width: 100%;
+        height: 100px;
+        position: absolute;
+        left: 0px;
+        bottom: -100px;
+        text-align: center;
+        color: $color-secondary;
+        transition: .5s;
+        h4{
+            font-weight: 600;
+        }
+        p{
+            font-style: italic;
+        }
+    }
+    
+}
+
+
+.image-container-team:hover .info-team{
+    transform: translate(0px, -175px);
+}
+
+.image-container-team:hover .color-blue{
+    transform: translate(0px, -250px);
+}
+
+// CLIENTS
+.image-clients{
+    width: 60%;
+    height: 60%;
+    margin: auto;
+    transition: .3s;
+    &:hover{
+        transform: scale(1.2);
+    }
+}
+
+

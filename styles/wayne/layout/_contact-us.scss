@@ -1,0 +1,22 @@
+#contact-us{
+    padding: $padding-section;
+    box-shadow: $box-section;
+    position: relative;
+}
+
+.container-contact{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    @media (max-width:993px){
+        flex-direction: column;
+    }
+}
+
+#contact-us-element{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: -80px;
+    left: 50%;
+}

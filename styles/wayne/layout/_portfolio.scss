@@ -1,0 +1,26 @@
+#portfolio{
+    padding: $padding-section;
+    box-shadow: $box-section;
+    position: relative;
+}
+
+.portfolio-container-images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.portfolio-container{
+    width: 400px;
+    justify-content: space-between;
+    display: flex;
+    margin: 30px auto;
+}
+
+#portfolio-element{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: -80px;
+    left: 50%;
+}

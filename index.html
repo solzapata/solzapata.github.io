@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Portfolio Sol Zapata</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+    />
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Calistoga:200,400,600|Open+Sans:200,300,400,700|Pacifico|Raleway:100,200,300,400,700,900&display=swap"
+      rel="stylesheet"
+    />
+    <script></script>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <ul class="nav-items">
+          <li><a class="nav-item" href="#aboutme">SOBRE MI</a></li>
+          <li><a class="nav-item" href="#skills">SKILLS</a></li>
+          <li class="proyects-nav-item">
+            <a class="nav-item" href="#proyects">PROYECTOS</a>
+            <ul class="submenu">
+              <li class="submenu-item css-proyects">
+                <a href="#proyects-css">Con CCS puro</a>
+              </li>
+              <li class="submenu-item"><a href="#proyects-js">Con JS vainilla</a>
+              </li></li>
+            </ul>
+          </li>
+          <li><a class="nav-item" href="#contactme">CONTACTAME</a></li>
+          <li><a class="nav-item" href="#socialnetworks">REDES</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="aboutme" class="main-content presentation">
+        <img class="owner-photo" src="imgs/SolZap.png" />
+        <h1 class="owner-name section-title">Sol Zapata</h1>
+        <p class="owner-information">
+          Desarrolladora Frontend. Curiosa. Padawan.
+        </p>
+      </section>
+
+      <section id="skills" class="main-content skills">
+        <h2 class="section-title">Skills</h2>
+        <ul class="main-contest-list">
+          <li class="skill">
+            <div class="list-container">
+              <img src="imgs/skills/html.png" class="skill-img" />
+            </div>
+          </li>
+          <li class="skill">
+            <div class="list-container">
+              <img src="imgs/skills/css.png" class="skill-img" />
+            </div>
+          </li>
+          <li class="skill">
+            <div class="list-container">
+              <img src="imgs/skills/js.png" class="skill-img" />
+            </div>
+          </li>
+          <li class="skill">
+            <div class="list-container">
+              <img src="imgs/skills/git.png" class="skill-img" />
+            </div>
+          </li>
+          <li class="skill">
+            <div class="list-container">
+              <img src="imgs/skills/responsive.png" class="skill-img" />
+            </div>
+          </li>
+          <li class="skill">
+            <div class="list-container">
+              <img src="imgs/skills/react.png" class="skill-img" />
+            </div>
+          </li>
+          <li class="skill">
+            <div class="list-container">
+              <img src="imgs/skills/bootstrap.png" class="skill-img" />
+            </div>
+          </li>
+          <li class="skill">
+            <div class="list-container">
+              <img src="imgs/skills/sass.png" class="skill-img" />
+            </div>
+          </li>
+          <li class="skill">
+            <div class="list-container">
+              <img src="imgs/skills/firebase.png" class="skill-img" />
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section id="proyects-css" class="main-content proyects">
+        <h2 class="section-title">Proyectos sólo con CSS y Bootstrap</h2>
+
+        <div class="proyects-container">
+          <div class="proyect">
+            <a class="proyect-link" href="html/wayne.html"></a>
+          </div>
+
+          <div class="proyect">
+            <a class="proyect-link" href="html/portfolio.html"></a>
+          </div>
+
+          <div class="proyect">
+            <a class="proyect-link" href="html/starwars.html"></a>
+          </div>
+
+          <div class="proyect">
+            <a class="proyect-link" href="./html/polaroids.html"></a>
+          </div>
+
+          <div class="proyect">
+            <a class="proyect-link" href="./html/slider.html"></a>
+          </div>
+        </div>
+
+      </section>
+      <section id="proyects-js" class="main-content proyects">
+        <h2 class="section-title">Proyectos manejando el DOM</h2>
+        <div class="proyects-container proyects-js">
+          <div class="proyect proyect-js">
+            <a class="proyect-link" href="html/controladordegastos.html"></a>
+          </div>
+
+          <div class="proyect proyect-js">
+            <a class="proyect-link" href="html/cuentaregresiva.html"></a>
+          </div>
+
+          <div class="proyect proyect-js">
+            <a class="proyect-link" href="html/tweet.html"></a>
+          </div>
+
+          <div class="proyect proyect-js">
+            <a class="proyect-link" href="./html/contador.html"></a>
+          </div>
+
+        </div>
+      </section>
+
+      <section id="contactme" class="main-content contactme">
+        <h2 class="section-title">Contactame</h2>
+        <form class="contact-me-form" action="https://formsubmit.co/0f977f95702e413e2dbde61e8049b1c4" method="POST">
+          <div class="contact-information">
+            <label for="contact-name">Nombre:</label>
+            <div class="form-imput-container">
+              <input
+                required
+                placeholder="Ingrese su nombre"
+                type="text"
+                id="contact-name"
+                class="contact-me-form-input"
+                name="nombre"
+              />
+              <i class="fas fa-user user-icon"></i>
+              <i class="fas fa-check-circle valid-icon"></i>
+              <i class="fas fa-times-circle invalid-icon"></i>
+            </div>
+          </div>
+          <div class="contact-information">
+            <label for="contact-mail">Mail:</label>
+            <div class="form-imput-container">
+              <input
+                required
+                placeholder="Ingrese su mail"
+                type="email"
+                id="contact-mail"
+                class="contact-me-form-input"
+                name="email"
+              />
+              <i class="far fa-envelope mail-icon"></i>
+              <i class="fas fa-check-circle valid-icon"></i>
+              <i class="fas fa-times-circle invalid-icon"></i>
+            </div>
+          </div>
+          <div class="contact-information">
+            <label>¿Cómo me conociste?</label>
+            <select name="como-me-conoces" class="contact-me-form-input option-menu">
+              <option>LinkedIn</option>
+              <option>Twitter</option>
+              <option>Facebook</option>
+              <option>Referidos</option>
+              <option>Otro</option>
+            </select>
+          </div>
+          <fieldset name="razon-de-contacto" class="reason-for-contact">
+            <legend>Motivo:</legend>
+            <div class="reason">
+              <input type="radio" name="reason" id="job-offer" /><label
+                for="job-offer"
+                >Oferta de empleo</label
+              >
+            </div>
+            <div class="reason">
+              <input type="radio" name="reason" id="work-proposition" /><label
+                for="work-proposition"
+                >Propuesta de trabajo</label
+              >
+            </div>
+            <div class="reason">
+              <input type="radio" name="reason" id="question" /><label
+                for="question"
+                >Consulta</label
+              >
+            </div>
+            <div class="reason">
+              <input type="radio" name="reason" id="other" /><label for="other"
+                >Otro</label
+              >
+            </div>
+          </fieldset>
+          <div class="contact-information">
+            <label for="contact-msg">Comentarios</label>
+            <textarea
+              placeholder="Escriba su mensaje"
+              cols="50"
+              rows="5"
+              id="contact-msg"
+              class="contact-me-form-input"
+              name="comentarios"
+            ></textarea>
+          </div>
+          <button class="contact-information send-btn" type="submit">
+            ENVIAR
+          </button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-main-part">
+        <div class="footer-column socialnetworks-column">
+          <p id="socialnetworks" class="footer-links-title">REDES</p>
+          <ul class="footer-links">
+            <li class="footer-link">
+              <i class="fab fa-linkedin-in socialnetwork-icon"></i>
+              <a
+                class="footer-social-network-user"
+                target="_blank"
+                href="https://www.linkedin.com/in/sol-zapata/"
+                >Sol Zapata</a
+              >
+            </li>
+            <li class="footer-link">
+              <i class="fab fa-github socialnetwork-icon"></i>
+              <a
+                class="footer-social-network-user"
+                target="_blank"
+                href="https://www.github.com/sol-zapata"
+                >solzapata</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-column quote-column">
+          <div class="footer-quote">
+            <p class="footer-quote-text">
+              "Do or do not, there is no try."
+            </p>
+            <p class="footer-quote-author">
+              —Yoda, <i>Star Wars Episode V: The Empire Strikes Back.</i>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-copyright">
+        <p class="footer-copyright-text">
+          © 2019 - Todos los derechos reservados
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

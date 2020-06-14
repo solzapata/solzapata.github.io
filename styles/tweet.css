@@ -1,0 +1,39 @@
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+}
+
+.tuit {
+  border-radius: 10px;
+  width: 500px;
+  height: 160px;
+  border: 2px solid cornflowerblue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+.container-contador {
+  margin-top: 10px;
+  width: 500px;
+  justify-content: space-between;
+  display: flex;
+}
+
+.contador {
+  font-size: 18px;
+}
+
+.btn-tuitear {
+  border-radius: 25px;
+  height: 40px;
+  width: 100px;
+  background-color: cornflowerblue;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}

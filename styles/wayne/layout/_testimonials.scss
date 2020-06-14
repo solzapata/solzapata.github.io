@@ -1,0 +1,19 @@
+#testimonials{
+    background-color: #ecf5ff;
+    padding: $padding-section;
+    box-shadow: $box-section;
+}
+
+.container-testimonials{
+    display: flex;
+    width: 65%;
+    margin: 40px auto 20px;
+    justify-content: space-evenly;
+    @media (max-width:993px){
+        width: 100%;
+    }
+    @media (max-width:770px){
+        flex-direction: column;
+        text-align: center;
+    }
+}

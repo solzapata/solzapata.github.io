@@ -1,0 +1,43 @@
+#about{
+    background-color: $color-secondary;
+    padding: $padding-section;
+    box-shadow: $box-section;
+    position: relative;
+}
+
+.container-about{
+    margin: auto;
+    margin-bottom: 50px;
+    .title-about{
+        width: 550px;
+        text-align: center;
+        margin: auto;
+        @media (max-width:770px){
+            width: 100%;
+            margin: auto;
+        }
+        .title-section{
+            font-size: 36px;
+            color: $font-color-title;
+            font-weight: 500;
+            margin-bottom: 0;
+        }
+        .subtitle-section{
+            font-size: 15px;
+            color: $font-color-subtitle;
+            padding-top: 20px;
+            @media (max-width:993px){
+                width: 60%;
+                margin: auto;
+            }
+        }
+    }
+}
+
+#about-element{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: -80px;
+    left: 50%;
+}

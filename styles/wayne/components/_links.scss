@@ -1,0 +1,40 @@
+//ASIDE
+.open-aside{
+    font-size: 25px;
+    color: $color-fourth;
+    width: 30px;
+    position: fixed;
+    z-index: 1;
+    right: 5px;
+    top: 25px;
+    &:hover{
+        text-decoration: none;
+        color: $color-fourth;
+    }
+    @media (max-width:993px){
+        z-index: 2;
+    }
+}
+
+.close-aside, .close-aside:hover{
+    right: 16px;
+    font-size: 25px;
+    top: 25px;
+    color: #fff;
+    opacity: 2;
+    position: absolute;
+}
+
+// EXTRA
+.extra-read{
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+    border-bottom: #00458f solid 2px;
+    &, &:hover{
+        text-decoration: none;
+        color: $color-secondary;
+    }
+    &:hover{
+        border-bottom: $color-secondary solid 2px;
+    }
+}

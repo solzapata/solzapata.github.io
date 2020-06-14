@@ -1,0 +1,176 @@
+// ABOUT
+
+.content-about{
+    display: flex;
+    color: $font-color-text;
+    align-items: center;
+    @media (max-width:993px){
+        flex-direction: column;
+    }
+    .info-about{
+        padding: 10px;
+        width: 50%;
+        @media (max-width:993px){
+            width: 100%;
+            order: 2;
+        }
+        .sub-container-info{
+            display: flex;
+            .margin-icon{
+                margin-left: 10px;
+                @media (max-width:993px){
+                    width: 90%;
+                }
+            }
+        }
+    }
+}
+
+.sub-sub-section{
+    font-weight: 600;
+    font-size: 18px;
+    cursor: pointer;
+    margin-bottom: 0;
+    a, a:hover{
+        text-decoration: none;
+        color: $font-color-title;
+    }
+}
+
+.text-section{
+    color: $font-color-text;
+    margin: 10px 20px 20px 5px;
+}
+
+#sub-extra{
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 15px;
+    cursor: text;
+}
+
+
+// SERVICES
+.card-services{
+    background-color: $color-secondary;
+    width: 45%;
+    margin: 20px 0px;
+    border-radius: 6px;
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: .3s;
+    @media (max-width:770px){
+        width: 100%;
+    }
+    #text-card-services{
+        font-size: 14px;
+    }
+    .link-services{
+        color: black;
+        text-decoration: none;
+    }
+    .container-icon{
+        padding: 20px 0px 0px 15px;
+    }
+}
+
+.card-services:hover{
+    transform: translateY(-10px);
+}
+
+.card-services:hover .link-services{
+    color: $color-tertiary;
+}
+
+
+// EXTRA
+.card-extra{
+    background-color: #00458f;
+    width: 30%;
+    border-radius: 6px;
+    text-align: center;
+    height: 295px;
+    transition: .5s;
+    @media (max-width:993px){
+        width: 100%;
+        margin: 20px auto;
+    }
+    &:hover{
+        background-color: #003b7a;
+    }
+    h5{
+        font-size: 22px;
+        font-weight: 600;
+    }
+    .extra-text{
+        margin: 10px 10px 30px;
+    }
+}
+
+.card-extra-numbers{
+    width: 20%;
+    text-align: center;
+    @media (max-width:993px){
+        width: 40%;
+    }
+}
+
+.number-extra{
+    font-weight: bold;
+    font-size: 48px;
+}
+
+#numbers-extra{
+    @media (max-width:993px){
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+}
+
+
+// TESTIMONIALS
+.text-testimonials{
+    width: 75%;
+    @media (max-width:770px){
+        width: 100%;
+    }
+    h3{
+        font-size: 20px;
+        font-weight: bold;
+        color: #111;   
+    }
+    h4{
+        font-size: 14px;
+        color: #999;
+    }
+    p{
+        font-style: italic;
+    }
+}
+
+.circle-container-testimonials{
+    display: flex;
+    margin: auto;
+    width: 10%;
+    @media (max-width:993px){
+        width: 100%;
+        justify-content: center;
+    }
+    .item-circle{
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background-color: #ddd;
+        margin: 0px 5px;
+        cursor: pointer;
+    }
+}
+
+#first-item-circle{
+    background-color: $color-tertiary;
+}
+
+

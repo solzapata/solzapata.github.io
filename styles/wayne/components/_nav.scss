@@ -1,0 +1,111 @@
+//ASIDE
+.nav-aside{
+    padding-left: 0;
+    padding-top: 30px;
+    color: $color-secondary;
+    li{
+        padding: 10px 0px 10px 30px;
+    }
+}
+
+.item-aside{
+    color: $color-secondary;
+    transition: .3s;
+    &:hover{
+        text-decoration: none;
+        color: $color-tertiary;
+    }
+}
+
+.drop-aside, .deep-aside{
+    display: none;
+    list-style: none;
+}
+
+.drop-aside{
+    left: -10px;
+    position: relative;
+    color: white;
+}
+
+.deep-aside{
+    position: relative;
+    right: 0px;
+    width: 300px;
+    color: white;
+}
+
+.item-drop-aside:hover .drop-aside{
+    display: block;
+}
+
+.item-deep-aside:hover .deep-aside{
+    display: block;
+}
+
+// HEADER
+.menu-pages{
+    padding-left: 0;
+    display: flex; 
+    list-style: none;
+    margin: 35px 0px;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: $font-titles;
+    @media screen and (max-width:993px){
+        display: none;
+    }
+    .drop{
+        width: 98px;
+    }
+    .item-menu{
+        margin: 0px 17px;
+        cursor: pointer;  
+        color: #004289;  
+        transition: .5s;
+        &:hover{
+            color: $color-tertiary;
+            text-decoration: none;
+        }
+        .sub-menu-pages{
+            @include menuLinks;
+            top: 16px;
+            right: 10px;
+            .sub-item-menu{
+                padding: 10px 8px;
+                transition: .5s;
+                &:hover{
+                color: $color-tertiary;
+                height: 42px;
+                }
+            }
+            .sub-sub-menu-pages{
+                @include menuLinks;
+                left: 152px;
+                top: -25px;
+                .sub-sub-item-menu{
+                    padding: 10px 8px;
+                    transition: .5s;
+                    &:hover{
+                        color: $color-tertiary;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.item-linked{
+    text-decoration: none;
+    color: #004289;   
+    &:active{
+        color: $color-tertiary;
+    }
+}
+
+.drop:hover .sub-menu-pages{
+    display: block;
+    .deep:hover .sub-sub-menu-pages{
+        display: block;
+    }
+}    

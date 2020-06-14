@@ -1,0 +1,21 @@
+#services{
+    background-color: #ecf5ff;
+    padding: $padding-section;
+    box-shadow: $box-section;
+    position: relative;
+}
+
+.content-services{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#services-element{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: -80px;
+    left: 50%;
+}

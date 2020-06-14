@@ -1,0 +1,524 @@
+body {
+    background-color: #f5f5F5;
+}
+
+.clear {
+    clear: both;
+}
+
+.column {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.card {
+    margin: 40px 0;
+}
+
+.card-header {
+    background-color: #2ECC71;
+    padding: 20px;
+}
+
+.card-body {
+    background-color: #FFF;
+    padding: 40px 20px;
+}
+
+.content-container {
+    width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.title {
+    font-family: 'Helvetica';
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+    color: #FFF;
+    margin: 30px 0 10px;
+}
+
+.subtitle {
+    font-family: 'Helvetica';
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.text {
+    font-family: 'Roboto';
+}
+
+
+/* 
+===========================================
+            ABOUT SECTION
+=========================================== 
+*/
+
+.avatar {
+    width: 200px;
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name-container {
+    width: 600px;
+    text-align: center;
+}
+
+.name {
+    font-family: 'Helvetica';
+    font-weight: 700;
+    font-size: 54px;
+    color: #FFF;
+    margin: 30px 0 10px;
+}
+
+.job {
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 18px;
+    color: #FFF;
+}
+
+.about-me {
+    width: 400px;
+}
+
+.description {
+    font-family: 'Roboto';
+    line-height: 25px;
+}
+
+.info {
+    width: 350px;
+    margin-left: 50px;
+}
+
+.info-list {
+    list-style: none;
+    line-height: 25px;
+}
+
+.info-list li {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.info-property {
+    width: 100px;
+    font-family: 'Roboto';
+    color: #424242;
+}
+.info-value {
+    width: 180px;
+    font-family: 'Roboto';
+    color: #9E9E9E;
+}
+
+
+/* 
+===========================================
+            RESUME SECTION
+=========================================== 
+*/
+
+.timeline-container {
+    width: 380px;
+    padding: 0 10px;
+}
+
+.timeline-item {
+    padding: 15px 20px 10px;
+    margin-bottom: 20px;
+    border-left: 2px solid #2ECC71;
+}
+
+.timeline-title {
+    font-family: 'Helvetica';
+    font-size: 16px;
+    line-height: 18px;
+    margin: 0;
+}
+
+.timeline-period {
+    font-family: 'Helvetica';
+    font-size: 12px;
+    line-height: 18px;
+    color: #2ECC71;
+    margin: 0 0 20px;
+}
+
+.timeline-description {
+    font-family: 'Helvetica';
+    font-size: 15px;
+    line-height: 18px;
+}
+
+
+/* 
+===========================================
+            SERVICES SECTION
+=========================================== 
+*/
+
+.services-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.service-section-container {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.service-block {
+    width: 200px;
+    text-align: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.services-container .subtitle {
+    text-align: center;
+}
+
+.service-img-container {
+    width: 120px;
+    height: 120px;
+    background-color: #FAFAFA;
+    margin: 0 auto;
+}
+
+.service-img {
+    height: 64px;
+    margin: 28px 0;
+}
+
+.service-title {
+    font-family: 'Helvetica';
+    font-size: 17px;
+    line-height: 22px;
+    margin-top: 40px;
+}
+
+.service-description {
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.services-client {
+    width: 80px;
+    float: left;
+    margin-left: calc(800px/12 - 40px);
+    margin-right: calc(800px/12 - 40px); 
+}
+
+.pricing-box {
+    border: 1px solid #E0E0E0;
+    width: calc(800px / 3 - 20px);
+    margin: 0 10px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.pricing-button {
+    display: inline-block;
+    font-family: 'Helvetica';
+    background-color: #2ECC71;
+    color: #FFF;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.pricing-text {
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 24px;
+}
+
+
+/* 
+===========================================
+            PORTFOLIO SECTION
+=========================================== 
+*/
+
+.portfolio-img {
+    width: calc(800px / 3 - 10px);
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+
+/* 
+===========================================
+            BLOG SECTION
+=========================================== 
+*/
+
+.blog-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.blog-post {
+    width: 360px;
+    margin: 20px;
+    text-align: center;
+}
+
+.blog-post-img {
+    width: 360px;
+}
+
+.blog-post-title {
+    font-family: 'Helvetica';
+    padding: 30px 0;
+    letter-spacing: 1px;
+}
+
+
+
+/* 
+===========================================
+            CONTACT SECTION
+=========================================== 
+*/
+
+.contact {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.contact-form {
+    margin-top: 40px;
+}
+
+/* 
+===========================================
+            ESTILOS APARTE
+=========================================== 
+*/
+
+.card {
+    box-shadow: 0px 15px 25px 0px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+.card-header {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-body {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.avatar {
+    border-radius: 50%;
+}
+
+.timeline-item {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.2);
+}
+
+.service-img-container {
+    border-radius: 50%;
+    box-shadow: 0 7px 12px rgba(0, 0, 0, 0.15);
+}
+
+.pricing-box {
+    border-radius: 5px;
+    box-shadow: 0 7px 12px rgba(0, 0, 0, 0.12);
+}
+
+.pricing-button {
+    border-radius: 5px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.3);
+}
+
+.blog-post {
+    box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+.textarea, .input-text {
+    font-family: 'Roboto';
+    display: block;
+    width: 100%;
+    border: none;
+    margin: 30px 0;
+    padding: 10px 0 10px 20px;
+    border-bottom: 1px solid #e0e0e0;
+    border-left: 40px solid #fafafa;
+    background-color: transparent;
+    box-shadow: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textarea {
+    min-height: 200px;
+} 
+
+.send-button {
+    display: block;
+    font-family: 'Helvetica';
+    background-color: #2ECC71;
+    color: #FFF;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 20px;
+    text-decoration: none;
+    -webkit-appearance: none;
+    border: none;
+    margin: 0 auto;
+}
+
+/* 
+===========================================
+            RESPONSIVE
+=========================================== 
+*/
+
+@media(max-width: 930px){
+
+    .column{
+        width: 80%;
+    }
+    
+    .content-container{
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    .about-me{
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+    }
+
+    .about-container{
+        width: 90%;
+    }
+
+    .service-block{
+        width: calc(100% / 2);
+    }
+
+    .services-client{
+        width: calc(100% / 3 - 54px);
+    }
+
+    .pricing-box{
+        width: calc(100% / 3 - 20px);
+    }
+
+    .portfolio-img{
+        width: calc(100% / 3 - 10px);
+    }
+
+    .blog-post{
+        width: calc(100% / 2 - 40px);
+    }
+
+    .blog-post-img{
+        width: 100%;
+    }
+}
+
+@media(max-width:660px){
+    .about-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .services-client{
+        width: calc(100% / 2 - 54px);
+    }
+
+    .pricing-box{
+        width: 100%;
+    }
+
+    .portfolio-img{
+        width: 100%;
+    }
+}
+
+@media(max-width: 600px){
+    .name-container{
+        width: 80%;
+        flex-wrap: wrap;
+    }
+
+    .info{
+        margin: 0px;          
+    }
+
+    .info-list{
+        padding: 0px;
+    }
+
+    .info-list > li{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        font-size: 90%;              /*esto esta bien?*/
+    }
+}
+
+@media(max-width: 400px){
+    .service-block{
+        width: 100%;
+    }
+
+    .blog-post{
+        width: calc(100% - 40px);
+    }
+
+    .services-client{
+        width: calc(100% - 54px);
+    }
+
+}
+
+@media(max-width: 350px){
+    .title{
+        font-size: 200%;
+    }
+
+    .name{
+        font-size: 200%;
+    }
+
+    .avatar{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+    }
+}
