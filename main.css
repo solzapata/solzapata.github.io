@@ -211,19 +211,19 @@ header {
 }
 
 .proyects-container .proyect:nth-child(3) {
-  background-image: url(./imgs/proyects/starwars.JPG);
+  background-image: url(./imgs/proyects/starwars.jpg);
 }
 
 .proyects-container .proyect:nth-child(4) {
-  background-image: url(./imgs/proyects/polaroids.JPG);
+  background-image: url(./imgs/proyects/polaroids.jpg);
 }
 
 .proyects-container .proyect:nth-child(5) {
-  background-image: url(./imgs/proyects/slider.JPG);
+  background-image: url(./imgs/proyects/slider.jpg);
 }
 
 .proyects-js .proyect:nth-child(1) {
-  background-image: url(./imgs/proyects/controladordegastos.JPG);
+  background-image: url(./imgs/proyects/controladordegastos.jpg);
 }
 
 .proyects-js .proyect:nth-child(2) {
@@ -231,11 +231,11 @@ header {
 }
 
 .proyects-js .proyect:nth-child(3) {
-  background-image: url(./imgs/proyects/tweet.JPG);
+  background-image: url(./imgs/proyects/tweet.jpg);
 }
 
 .proyects-js .proyect:nth-child(4) {
-  background-image: url(./imgs/proyects/calculadora.JPG);
+  background-image: url(./imgs/proyects/calculadora.jpg);
 }
 
 .list-element {
