@@ -22,16 +22,8 @@
           <li><a class="nav-item" href="#skills">SKILLS</a></li>
           <li class="proyects-nav-item">
             <a class="nav-item" href="#proyects">PROYECTOS</a>
-            <ul class="submenu">
-              <li class="submenu-item css-proyects">
-                <a href="#proyects-css">Con CCS puro</a>
-              </li>
-              <li class="submenu-item"><a href="#proyects-js">Con JS vainilla</a>
-              </li></li>
-            </ul>
           </li>
           <li><a class="nav-item" href="#contactme">CONTACTAME</a></li>
-          <li><a class="nav-item" href="#socialnetworks">REDES</a></li>
         </ul>
       </nav>
     </header>
@@ -96,57 +88,91 @@
         </ul>
       </section>
 
-      <section id="proyects-css" class="main-content proyects">
-        <h2 class="section-title">Proyectos sólo con CSS y Bootstrap</h2>
+      <section id="proyects" class="main-content proyects">
+        <h2 class="section-title">Proyectos</h2>
 
         <div class="proyects-container">
           <div class="proyect">
             <a class="proyect-link" href="html/wayne.html"></a>
+            <div class="proyect-description">
+              <p class="proyect-name">Wayne Enterprises</p>
+              <span>HTML5, Bootstrap, Sass y CSS</span>
+            </div>
           </div>
 
           <div class="proyect">
             <a class="proyect-link" href="html/portfolio.html"></a>
+            <div class="proyect-description">
+              <p class="proyect-name">Portfolio</p>
+              <span>HTML5, Bootstrap y CSS</span>
+            </div>
           </div>
 
           <div class="proyect">
             <a class="proyect-link" href="html/starwars.html"></a>
+            <div class="proyect-description">
+              <p class="proyect-name">Star Wars</p>
+              <span>CSS puro</span>
+            </div>
           </div>
 
           <div class="proyect">
             <a class="proyect-link" href="html/polaroids.html"></a>
+            <div class="proyect-description">
+              <p class="proyect-name">Polaroids</p>
+              <span>HTML5 y CSS puro</span>
+            </div>
           </div>
 
           <div class="proyect">
             <a class="proyect-link" href="html/slider.html"></a>
+            <div class="proyect-description">
+              <p class="proyect-name">Slider</p>
+              <span>HTML5 y CSS puro</span>
+            </div>
           </div>
-        </div>
 
-      </section>
-      <section id="proyects-js" class="main-content proyects">
-        <h2 class="section-title">Proyectos manejando el DOM</h2>
-        <div class="proyects-container proyects-js">
-          <div class="proyect proyect-js">
+          <div class="proyect">
             <a class="proyect-link" href="./html/controladordegastos.html"></a>
+            <div class="proyect-description">
+              <p class="proyect-name">Gastos</p>
+              <span>JavaScript Vanilla</span>
+            </div>
           </div>
 
-          <div class="proyect proyect-js">
+          <div class="proyect">
             <a class="proyect-link" href="./html/cuentaregresiva.html"></a>
+            <div class="proyect-description">
+              <p class="proyect-name">Cuenta Regresiva</p>
+              <span>JavaScript Vanilla</span>
+            </div>
           </div>
 
-          <div class="proyect proyect-js">
+          <div class="proyect">
             <a class="proyect-link" href="./html/tweet.html"></a>
+            <div class="proyect-description">
+              <p class="proyect-name">Tweet</p>
+              <span>JavaScript Vanilla</span>
+            </div>
           </div>
 
-          <div class="proyect proyect-js">
+          <div class="proyect">
             <a class="proyect-link" href="./html/contador.html"></a>
+            <div class="proyect-description">
+              <p class="proyect-name">Contador</p>
+              <span>JavaScript Vanilla</span>
+            </div>
           </div>
-
         </div>
       </section>
 
       <section id="contactme" class="main-content contactme">
         <h2 class="section-title">Contactame</h2>
-        <form class="contact-me-form" action="https://formsubmit.co/0f977f95702e413e2dbde61e8049b1c4" method="POST">
+        <form
+          class="contact-me-form"
+          action="https://formsubmit.co/0f977f95702e413e2dbde61e8049b1c4"
+          method="POST"
+        >
           <div class="contact-information">
             <label for="contact-name">Nombre:</label>
             <div class="form-imput-container">
@@ -181,7 +207,10 @@
           </div>
           <div class="contact-information">
             <label>¿Cómo me conociste?</label>
-            <select name="como-me-conoces" class="contact-me-form-input option-menu">
+            <select
+              name="como-me-conoces"
+              class="contact-me-form-input option-menu"
+            >
               <option>LinkedIn</option>
               <option>Twitter</option>
               <option>Facebook</option>
