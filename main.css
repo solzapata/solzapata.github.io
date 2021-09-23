@@ -202,39 +202,39 @@ header {
 }
 
 .proyects-container .proyect:nth-child(1) {
-  background-image: url(./imgs/proyects/wayne.jpg);
+  background-image: url(./imgs/proyects/wiki.png);
 }
 
 .proyects-container .proyect:nth-child(2) {
-  background-image: url(./imgs/proyects/portfolio.jpg);
+  background-image: url(./imgs/proyects/catalog.png);
 }
 
 .proyects-container .proyect:nth-child(3) {
-  background-image: url(./imgs/proyects/starwars.jpg);
+  background-image: url(./imgs/proyects/wayne.jpg);
 }
 
 .proyects-container .proyect:nth-child(4) {
-  background-image: url(./imgs/proyects/polaroids.jpg);
+  background-image: url(./imgs/proyects/portfolio.jpg);
 }
 
 .proyects-container .proyect:nth-child(5) {
-  background-image: url(./imgs/proyects/slider.jpg);
+  background-image: url(./imgs/proyects/starwars.jpg);
 }
 
 .proyects-container .proyect:nth-child(6) {
-  background-image: url(./imgs/proyects/controladordegastos.jpg);
+  background-image: url(./imgs/proyects/polaroids.jpg);
 }
 
 .proyects-container .proyect:nth-child(7) {
-  background-image: url(./imgs/proyects/cuentaregresiva.jpg);
+  background-image: url(./imgs/proyects/slider.jpg);
 }
 
 .proyects-container .proyect:nth-child(8) {
-  background-image: url(./imgs/proyects/tweet.jpg);
+  background-image: url(./imgs/proyects/controladordegastos.jpg);
 }
 
 .proyects-container .proyect:nth-child(9) {
-  background-image: url(./imgs/proyects/calculadora.jpg);
+  background-image: url(./imgs/proyects/tweet.jpg);
 }
 
 .list-element {
